@@ -82,7 +82,7 @@ const {courseInstructor : instructor} = course // Helps in DeStrucutring 'course
 // console.log(courseInstructor);
 console.log(instructor); //Calling DeStructured value//
 
-//****************JSON(API Calls)*****************/
+//****************JSON - JavaScript Object Notation(API Calls)*****************/
 //FORMAT 01//
 // {
 //     "name": "Salman",
