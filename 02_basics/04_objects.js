@@ -66,27 +66,31 @@ console.log(Object.values(tinderUser)); //Prints as Array of values of the objec
 console.log(Object.entries(tinderUser)); //Prints an array with collection of arrays of 'key-value pairs' of the object(tinderUser).
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); //Returns 'True' //
+ 
 
-//***************Remaining***************//
-// const course = {
-//     coursename: "js in hindi",
-//     price: "999",
-//     courseInstructor: "salman"
+const course = {
+    coursename: "JS-Course",
+    price: "999",
+    courseInstructor: "Salman"
+}
+
+// console.log(course.courseInstructor); //General way of calling
+
+//Another way of calling //
+const {courseInstructor : instructor} = course // Helps in DeStrucutring 'courseInstructor' to 'instructor' //
+
+// console.log(courseInstructor);
+console.log(instructor); //Calling DeStructured value//
+
+//****************JSON(API Calls)*****************/
+//FORMAT 01//
+// {
+//     "name": "Salman",
+//     "coursename": "JS-Course",
+//     "price": "free"
 // }
 
-// // course.courseInstructor
-
-// const {courseInstructor: instructor} = course
-
-// // console.log(courseInstructor);
-// console.log(instructor);
-
-// // {
-// //     "name": "salman",
-// //     "coursename": "js in hindi",
-// //     "price": "free"
-// // }
-
+//FORMAT 02//(Objects inside Array)
 // [
 //     {},
 //     {},
