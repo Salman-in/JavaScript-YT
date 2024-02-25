@@ -13,7 +13,7 @@ const dcHeros = ["superman", "flash", "batman"]
 // console.log(marvelHeros.concat(dcHeros)); //PRINTS the same and existing array remains intact
 
 //*******************SPREAD OPERATOR********************//
-const all_new_heros = [...marvelHeros, ...dcHeros] //Spreads the element individually and then creates an array "..." are used to spread an array.
+const all_new_heros = [...marvelHeros, ...dcHeros] //Spreads the element individually and then creates an array "..." are used to spread an array , and returns one single array with all elements.
 // console.log(all_new_heros);
 
 const anotherArray = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
