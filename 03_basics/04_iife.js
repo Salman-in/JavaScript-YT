@@ -17,3 +17,4 @@
 **This method is to execute the code immediately.
 **Also to eradicate global scope pollution in the code.
 */
+//Hello nijad
