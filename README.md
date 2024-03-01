@@ -1,5 +1,5 @@
 # JavaScript-YouTube 
-A code repo for javascript series at YouTube
+A code repo for javascript series in YouTube
 
 ---
 
