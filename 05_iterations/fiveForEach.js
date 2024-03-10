@@ -1,30 +1,35 @@
+// For Arrays
 const coding = ["js", "ruby", "java", "python", "cpp"]
-
-// coding.forEach( function (val){
-//     console.log(val);
-// } )
-
-// coding.forEach( (item) => {
-//     console.log(item);
-// } )
-
-// function printMe(item){
-//     console.log(item);
-// }
-
-// coding.forEach(printMe)
-
+//***************BASIC SYNTAX*****************//
 // coding.forEach( (item, index, arr)=> {
 //     console.log(item, index, arr);
 // } )
 
+// Using regular function //
+// coding.forEach( function (val){
+//     console.log(val);
+// } )
+
+// Using Arrow function //
+// coding.forEach( (item) => {
+//     console.log(item);
+// } )
+
+// Using other methods of function //
+// function printMe(item){
+//     console.log(item);
+// }
+// coding.forEach(printMe)
+
+// Applying to objects inside an array //
+
 const myCoding = [
     {
-        languageName: "javascript",
+        languageName: "Javascript",
         languageFileName: "js"
     },
     {
-        languageName: "java",
+        languageName: "Java",
         languageFileName: "java"
     },
     {
@@ -36,4 +41,5 @@ const myCoding = [
 myCoding.forEach( (item) => {
     
     console.log(item.languageName);
+    console.log(item.languageFileName);
 } )

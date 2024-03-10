@@ -33,7 +33,7 @@ const myObject = {
     game2: 'Spiderman'
 }
 
-for (const [key, value] of myObject) {
+// for (const [key, value] of myObject) {
     // console.log(key, ':', value);
     
-}
+// }

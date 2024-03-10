@@ -1,18 +1,19 @@
+// FOR IN //
 const myObject = {
-    js: 'javascript',
+    Js: 'javascript',
     cpp: 'C++',
     rb: "ruby",
-    swift: "swift by apple"
+    swift: "swift by apple",
+    Py: "python"
 }
-
 for (const key in myObject) {
-    //console.log(`${key} shortcut is for ${myObject[key]}`);
+    // console.log(`${key} shortcut is for ${myObject[key]}`);
 }
 
+// Applying to arrays //
 const programming = ["js", "rb", "py", "java", "cpp"]
-
 for (const key in programming) {
-    //console.log(programming[key]);
+    // console.log(programming[key]);
 }
 
 // const map = new Map()
@@ -22,5 +23,5 @@ for (const key in programming) {
 // map.set('IN', "India")
 
 // for (const key in map) {
-//     console.log(key);
+//     console.log(key); //Will not print anything
 // }
